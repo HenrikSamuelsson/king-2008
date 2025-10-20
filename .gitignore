@@ -1,0 +1,15 @@
+# Build folders
+build/
+out/
+*.exe
+*.obj
+*.o
+
+# VS Code
+.vscode/ipch/
+.vscode/launch.json
+.vscode/settings.json
+
+# Temporary
+*.log
+*.tmp

@@ -1,0 +1,62 @@
+{
+  // -----------------------------------------------------------
+  // Compiler & IntelliSense
+  // -----------------------------------------------------------
+  "C_Cpp.default.compilerPath": "C:/tools/mingw64/bin/gcc.exe",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  "C_Cpp.default.cStandard": "c23",
+  "files.associations": {
+    "*.c": "c",
+    "*.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.loggingLevel": "Information",
+  "C_Cpp.intelliSenseEngine": "default",
+  // -----------------------------------------------------------
+  // Compilation Data Base
+  // -----------------------------------------------------------
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+  // -----------------------------------------------------------
+  // Code analysis (Clang-Tidy)
+  // -----------------------------------------------------------
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.codeAnalysis.clangTidy.path": "C:/tools/llvm/bin/clang-tidy.exe",
+  "C_Cpp.codeAnalysis.clangTidy.useBuildPath": true,
+  "C_Cpp.codeAnalysis.runAutomatically": true,
+  // -----------------------------------------------------------
+  // CMake Tools (host build only)
+  // -----------------------------------------------------------
+  "cmake.generator": "MinGW Makefiles",
+  "cmake.configureOnOpen": true,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.ctestArgs": [
+    "-j",
+    "8",
+    "--output-on-failure"
+  ],
+  "cmake.configureSettings": {
+    "CMAKE_C_STANDARD": "23",
+    "CMAKE_C_EXTENSIONS": "OFF",
+    "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+    "CMAKE_C_FLAGS": "-Wall -Wextra -Werror -Wconversion -Wshadow -Wdouble-promotion"
+  },
+  // -----------------------------------------------------------
+  // Formatting
+  // -----------------------------------------------------------
+  "editor.formatOnSave": true,
+  "clang-format.style": "file",
+  // -----------------------------------------------------------
+  // Editor behavior
+  // -----------------------------------------------------------
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  // -----------------------------------------------------------
+  // Spelling
+  // -----------------------------------------------------------
+  "cSpell.words": [
+    "Kernighan",
+    "Ritchie’s"
+  ]
+}

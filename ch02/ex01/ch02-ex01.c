@@ -5,4 +5,6 @@
 int main(void)
 { int unused = ANSWER;  // clang-tidy should warn: unused variable 'unused'
     printf("hello, world\n");
+    int x = 1;
+
 }

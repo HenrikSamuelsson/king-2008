@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:/dev/king-2008",
+    "command": "gcc -std=c99 -Wall -Wextra -Wconversion -Wshadow -Wdouble-promotion -IC:/tools/winlibs/mingw64/include -IC:/tools/winlibs/mingw64/x86_64-w64-mingw32/include -c ch02/ex01/ch02-ex01.c",
+    "file": "ch02/ex01/ch02-ex01.c"
+  }
+]

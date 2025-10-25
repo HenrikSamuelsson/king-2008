@@ -7,7 +7,6 @@ out/
 
 # VS Code
 .vscode/launch.json
-.vscode/settings.json
 
 # Temporary
 *.log

@@ -1,6 +1,7 @@
 /*
- * Program from King, K. N. (2008). C Programming: A Modern Approach (2nd ed.).
- * Chapter 2, Programming Project 2.
+ * Solution to Programming Project 2 in Chapter 2 of:
+ *
+ * King, K. N. (2008). C Programming: A Modern Approach (2nd ed.).
  *
  * Computes the volume of a sphere with a 10-meter radius.
  */
